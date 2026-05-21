@@ -3,17 +3,17 @@ import Link from 'next/link';
 
 const items = [
   {
-    title: 'service',
+    title: 'Read more',
     img: '/images/service-1.webp',
     anchor: 'service-1',
   },
   {
-    title: 'service',
+    title: 'Read more',
     img: '/images/service-2.webp',
     anchor: 'service-2',
   },
   {
-    title: 'service',
+    title: 'Read more',
     img: '/images/service-3.webp',
     anchor: 'service-3',
   },

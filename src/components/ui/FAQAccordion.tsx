@@ -9,13 +9,39 @@ type FAQItem = {
 
 const faqData: FAQItem[] = [
   {
-    question: 'WHAT ARE DELIVERY OPTIONS?',
+    question: 'Do I need painting experience to join?',
     answer:
-      'Due to the detailed nature and our high order volume, our current order processing time is 3–5 business days, not including transit time...',
+      'Not at all — our art classes are designed for beginners and all experience levels. Our professional artist guides you step by step throughout the session.',
   },
   {
-    question: 'DO YOU CREATE CUSTOM BOXES?',
-    answer: 'Yes. You can choose the items for your personal box HERE.',
+    question: 'Are all painting materials included?',
+    answer:
+      'Yes! We provide everything you need, including canvases, paints, brushes, easels, and aprons.',
+  },
+  {
+    question: 'Where do the beach art classes take place?',
+    answer:
+      'Our weekend beach sessions are held on the beautiful Bournemouth and Wormhout coastline, depending on weather conditions.',
+  },
+  {
+    question: 'Can I book a private art event for a birthday or celebration?',
+    answer:
+      'Absolutely! We organise private and mobile art experiences for birthdays, hen parties, family gatherings, corporate events, and special occasions.',
+  },
+  {
+    question: 'Do you travel to private locations?',
+    answer:
+      'Yes — we can bring the full art experience to your chosen location, including homes, gardens, beaches, hotels, and event venues.',
+  },
+  {
+    question: 'Are the classes suitable for children?',
+    answer:
+      'Yes, we offer creative workshops for both adults and children. Kids’ sessions are fun, relaxing, and designed to encourage creativity and confidence.',
+  },
+  {
+    question: 'How can I book a class or event?',
+    answer:
+      'You can contact us directly through the website to reserve your spot or discuss your private event ideas and preferred location.',
   },
 ];
 
