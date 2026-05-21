@@ -31,12 +31,6 @@ export default function Footer() {
             <a href="/faq" className="block mb-3">
               FAQ
             </a>
-            <a href="#" className="block mb-3">
-              Privacy policy
-            </a>
-            <a href="#" className="block">
-              Terms & Conditions
-            </a>
           </div>
 
           {/* COLUMN 3 */}
