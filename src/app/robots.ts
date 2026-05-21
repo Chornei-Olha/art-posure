@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://art-posture.com/sitemap.xml',
+    sitemap: 'https://art-posure.com/sitemap.xml',
   };
 }
