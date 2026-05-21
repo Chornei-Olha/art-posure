@@ -1,11 +1,11 @@
-// import type { MetadataRoute } from 'next';
-
-// export default function robots(): MetadataRoute.Robots {
-//   return {
-//     rules: {
-//       userAgent: '*',
-//       allow: '/',
-//     },
-//     sitemap: 'https://art-posure.com/sitemap.xml',
-//   };
-// }
+import type { MetadataRoute } from 'next';
+export const dynamic = 'force-static';
+export default function robots(): MetadataRoute.Robots {
+  return {
+    rules: {
+      userAgent: '*',
+      allow: '/',
+    },
+    sitemap: 'https://art-posure.vercel.app/sitemap.xml',
+  };
+}

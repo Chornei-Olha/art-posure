@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/index.css';
 import { Roboto_Condensed, Cormorant_Garamond } from 'next/font/google';
-// import type { Metadata } from 'next';
+import type { Metadata } from 'next';
 
 const robotoCondensed = Roboto_Condensed({
   subsets: ['latin'],
@@ -21,73 +21,73 @@ export const viewport = {
   initialScale: 1,
 };
 
-// export const metadata: Metadata = {
-//   metadataBase: new URL('https://art-posure.vercel.app'),
+export const metadata: Metadata = {
+  metadataBase: new URL('https://art-posure.vercel.app'),
 
-//   title: 'Beach Art Classes & Private Art Events in Bournemouth | ART POSURE',
+  title: 'Beach Art Classes & Private Art Events in Bournemouth | ART POSURE',
 
-//   description:
-//     'Join relaxing beach art classes in Bournemouth or book private mobile art events for birthdays, corporate parties, celebrations, and creative workshops.',
+  description:
+    'Join relaxing beach art classes in Bournemouth or book private mobile art events for birthdays, corporate parties, celebrations, and creative workshops.',
 
-//   keywords: [
-//     'beach art classes',
-//     'art classes Bournemouth',
-//     'private art events',
-//     'mobile art workshops',
-//     'painting classes by the sea',
-//     'creative workshops',
-//     'kids craft workshops',
-//     'corporate art events',
-//     'birthday art parties',
-//   ],
+  keywords: [
+    'beach art classes',
+    'art classes Bournemouth',
+    'private art events',
+    'mobile art workshops',
+    'painting classes by the sea',
+    'creative workshops',
+    'kids craft workshops',
+    'corporate art events',
+    'birthday art parties',
+  ],
 
-//   alternates: {
-//     canonical: '/',
-//   },
+  alternates: {
+    canonical: '/',
+  },
 
-//   robots: {
-//     index: true,
-//     follow: true,
-//   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 
-//   icons: {
-//     icon: [{ url: '/images/favicon.webp' }],
-//   },
+  icons: {
+    icon: [{ url: '/images/favicon.webp' }],
+  },
 
-//   openGraph: {
-//     title: 'Beach Art Classes & Private Art Events in Bournemouth | ART POSURE',
+  openGraph: {
+    title: 'Beach Art Classes & Private Art Events in Bournemouth | ART POSURE',
 
-//     description:
-//       'Creative beach painting experiences and private art workshops for events, parties, and celebrations.',
+    description:
+      'Creative beach painting experiences and private art workshops for events, parties, and celebrations.',
 
-//     url: 'https://art-posure.vercel.app/',
+    url: 'https://art-posure.vercel.app/',
 
-//     siteName: 'ART POSURE',
+    siteName: 'ART POSURE',
 
-//     locale: 'en_GB',
+    locale: 'en_GB',
 
-//     type: 'website',
+    type: 'website',
 
-//     images: [
-//       {
-//         url: '/images/og-image.png',
-//         width: 1200,
-//         height: 630,
-//         alt: 'ART POSURE Beach Art Classes',
-//       },
-//     ],
-//   },
+    images: [
+      {
+        url: '/images/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'ART POSURE Beach Art Classes',
+      },
+    ],
+  },
 
-//   twitter: {
-//     card: 'summary_large_image',
+  twitter: {
+    card: 'summary_large_image',
 
-//     title: 'Beach Art Classes & Private Art Events in Bournemouth | ART POSURE',
+    title: 'Beach Art Classes & Private Art Events in Bournemouth | ART POSURE',
 
-//     description: 'Creative beach painting experiences and private art workshops.',
+    description: 'Creative beach painting experiences and private art workshops.',
 
-//     images: ['/images/og-image.png'],
-//   },
-// };
+    images: ['/images/og-image.png'],
+  },
+};
 
 export default function RootLayout({
   children,
