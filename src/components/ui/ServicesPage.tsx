@@ -19,7 +19,15 @@ export default function ServicesPage() {
               Experience a creative escape by the sea with guided weekend art sessions on the
               beautiful Bournemouth coastline.
             </p>
-
+            <p className="text-lg leading-relaxed text-black/70 mb-8">
+              Enjoy a relaxing and inspiring 2.5-hour art experience where all materials are fully
+              provided. Under the guidance of a professional artist and assistant instructor, even
+              complete beginners will be able to create their own beautiful artwork to take home.
+            </p>
+            <p className="text-lg leading-relaxed text-black/70 mb-8">
+              Whether you come alone, with friends, or as a family activity, this beachside art
+              session is designed to be creative, calming, and beginner friendly.
+            </p>
             <div className="flex flex-wrap gap-4 mb-10">
               <div className="px-5 py-3 rounded-full border border-black/10 bg-white">
                 £35 per person
