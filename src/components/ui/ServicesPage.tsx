@@ -58,15 +58,70 @@ export default function ServicesPage() {
                 </li>
               ))}
             </ul>
-
+            {/* 
             <button className="mt-10 w-full bg-black text-white py-4 rounded-full hover:opacity-90 transition">
               Book Your Place
-            </button>
+            </button> */}
           </div>
         </div>
       </section>
 
-      {/* Private & Mobile Art Events */}
+      {/* Children’s Beach Art Experience */}
+      <section id="service-3" className="scroll-mt-32 py-24 border-b border-black/10">
+        <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+          <div>
+            <p className="uppercase tracking-[0.2em] text-sm text-black/50 mb-4">
+              Children’s Creative Session
+            </p>
+
+            <h2 className="text-4xl md:text-5xl font-light leading-tight mb-6">
+              Children’s Beach
+              <br />
+              Art Experience
+            </h2>
+
+            <p className="text-lg leading-relaxed text-black/70 mb-6">
+              Make your family beach day even more memorable with creative outdoor art activities
+              designed especially for children.
+            </p>
+
+            <p className="text-base leading-relaxed text-black/70 mb-6">
+              Children, accompanied by their parents or guardians, are welcome to join our relaxing
+              beachside art sessions where imagination comes to life through colour, texture, and
+              nature-inspired creativity.
+            </p>
+
+            <p className="text-base leading-relaxed text-black/70">
+              A joyful and inspiring seaside art experience where children can paint, create,
+              explore, and make unforgettable memories by the sea.
+            </p>
+          </div>
+
+          <div className="bg-white rounded-[32px] p-8 shadow-sm border border-black/5">
+            <h2 className="text-2xl font-medium mb-6">What’s Included</h2>
+
+            <ul className="space-y-4 text-black/75">
+              {[
+                '£20 per child',
+                '1-hour creative session',
+                'All art materials included',
+                'Canvases, paints, plaster figures & art clay provided',
+                'Parent or guardian supervision required',
+                'Beginner friendly',
+                'Creative activities with shells, textures & mixed materials',
+                'Outdoor beach art experience',
+                'Bournemouth coastline location',
+              ].map((item) => (
+                <li key={item} className="flex items-start gap-3">
+                  <span className="mt-2 h-2 w-2 rounded-full bg-black" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+      {/* Private Art Events & Creative Gatherings */}
       <section id="private-mobile-art-events" className="scroll-mt-32 py-24">
         <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1 bg-white rounded-[32px] p-8 shadow-sm border border-black/5">
@@ -74,14 +129,14 @@ export default function ServicesPage() {
 
             <div className="grid sm:grid-cols-2 gap-4">
               {[
-                'Birthday parties',
-                'Corporate events',
-                'Private celebrations',
-                'Family gatherings',
-                'Hen parties',
-                'Creative social events',
-                'Outdoor venues',
-                'Indoor venues',
+                'Private art events & celebrations',
+                'Birthday parties & themed gatherings',
+                'Garden parties & outdoor experiences',
+                'Beachside creative sessions',
+                'Family & friends experiences',
+                'Fully personalised event planning',
+                'Canvases, easels, chairs & art materials included',
+                'Bournemouth & surrounding areas',
               ].map((item) => (
                 <div
                   key={item}
@@ -95,45 +150,34 @@ export default function ServicesPage() {
 
           <div className="order-1 lg:order-2">
             <p className="uppercase tracking-[0.2em] text-sm text-black/50 mb-4">
-              Mobile Creative Experience
+              Private Creative Experience
             </p>
 
             <h2 className="text-4xl md:text-5xl font-light leading-tight mb-6">
-              Private & Mobile
-              <br />
-              Art Events
+              Private Art Events
+              <br />& Creative Gatherings
             </h2>
 
-            <p className="text-lg leading-relaxed text-black/70 mb-8">
-              Bring creativity to any occasion with fully guided private art experiences tailored to
-              your event and location.
+            <p className="text-lg leading-relaxed text-black/70 mb-6">
+              Transform any occasion into a unique and memorable creative experience with
+              personalised art events designed for adults, children, families, and groups of
+              friends.
             </p>
 
-            <div className="space-y-5 text-black/75 mb-10">
-              <div className="flex gap-4">
-                <span className="text-xl">•</span>
-                <p>Full setup and all painting materials included</p>
-              </div>
+            <p className="text-base leading-relaxed text-black/70 mb-6">
+              Whether you are planning a birthday celebration, themed party, relaxing garden
+              gathering, hen party, family event, or a creative outdoor experience by the sea,
+              POSTURE ART EXPERIENCE offers bespoke artistic sessions tailored to your atmosphere
+              and vision.
+            </p>
 
-              <div className="flex gap-4">
-                <span className="text-xl">•</span>
-                <p>Professional artistic guidance throughout the session</p>
-              </div>
-
-              <div className="flex gap-4">
-                <span className="text-xl">•</span>
-                <p>Flexible locations chosen by the client</p>
-              </div>
-
-              <div className="flex gap-4">
-                <span className="text-xl">•</span>
-                <p>Suitable for beaches, homes, gardens, hotels, and event spaces</p>
-              </div>
-            </div>
+            <p className="text-base leading-relaxed text-black/70 mb-6">
+              Pricing, materials, location, session style, and group size are discussed individually
+              depending on your event requirements.
+            </p>
 
             <p className="text-base leading-relaxed text-black/70">
-              Every event is designed to feel creative, memorable, and relaxing for every guest —
-              whether it’s an intimate gathering or a larger celebration.
+              Create meaningful memories through art, creativity, and beautiful shared moments.
             </p>
           </div>
         </div>
