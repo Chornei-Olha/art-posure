@@ -26,9 +26,9 @@ export default function Footer() {
             <Link href="/gallery" className="block mb-3">
               Gallery
             </Link>
-            <Link href="/services" className="block mb-3">
+            {/* <Link href="/services" className="block mb-3">
               Services
-            </Link>{' '}
+            </Link>{' '} */}
             <Link href="/faq" className="block mb-3">
               FAQ
             </Link>{' '}

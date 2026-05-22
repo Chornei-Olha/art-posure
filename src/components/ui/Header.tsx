@@ -23,7 +23,7 @@ export default function Header() {
         <nav className="hidden md:flex gap-8 font-roboto text-[18px] uppercase leading-none">
           <Link href="/">Home</Link>
           <Link href="/gallery">Gallery</Link>
-          <Link href="/services">Services</Link>
+          {/* <Link href="/services">Services</Link> */}
           <Link href="/faq">FAQ</Link>{' '}
         </nav>
 
@@ -59,9 +59,9 @@ export default function Header() {
           <Link href="/gallery" onClick={() => setOpen(false)}>
             Gallery
           </Link>
-          <Link href="/services" onClick={() => setOpen(false)}>
+          {/* <Link href="/services" onClick={() => setOpen(false)}>
             Services
-          </Link>
+          </Link> */}
           <Link href="/faq" onClick={() => setOpen(false)}>
             FAQ
           </Link>
