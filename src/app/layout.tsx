@@ -22,7 +22,7 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://art-posure.vercel.app'),
+  metadataBase: new URL('https://postart.pro/'),
 
   title: 'Beach Art Classes & Private Art Events in Bournemouth | ART POSURE',
 
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     description:
       'Creative beach painting experiences and private art workshops for events, parties, and celebrations.',
 
-    url: 'https://art-posure.vercel.app/',
+    url: 'https://postart.pro/',
 
     siteName: 'ART POSURE',
 
@@ -99,19 +99,19 @@ export default function RootLayout({
       <body className={`${robotoCondensed.variable} ${cormorant.variable}`}>
         {' '}
         {children}
-        {/* <script
+        <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'LocalBusiness',
               name: 'ART POSURE',
-              url: 'https://art-posure.vercel.app',
+              url: 'https://postart.pro/',
               description: 'Beach art classes and private mobile art events in Bournemouth.',
               areaServed: 'Bournemouth',
             }),
           }}
-        /> */}
+        />
         <script
           type="module"
           src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fbuddhasa1071back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.7"
