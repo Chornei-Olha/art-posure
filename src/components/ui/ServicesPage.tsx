@@ -35,9 +35,8 @@ export default function ServicesPage() {
             </div>
 
             <p className="text-base leading-relaxed text-black/70">
-              Create your own artwork, enjoy the fresh sea air, and take your painting home with
-              you. Each session is designed to be relaxing, inspiring, and suitable for all
-              experience levels.
+              Create your own artwork, enjoy the fresh sea air, and experience creativity by the sea
+              with POSTURE ART EXPERIENCE.
             </p>
           </div>
 
@@ -46,12 +45,12 @@ export default function ServicesPage() {
 
             <ul className="space-y-4 text-black/75">
               {[
-                '2.5-hour guided painting experience',
-                'Professional artistic guidance',
-                'Assistant support during the session',
-                'All painting materials provided',
-                'Relaxed seaside atmosphere',
-                'Suitable for beginners and all levels',
+                '2.5-hour guided experience',
+                'All art materials included',
+                'Beginner friendly',
+                'Take your painting home',
+                'Bournemouth coastline location',
+                'Weekend sessions (weather permitting)',
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <span className="mt-2 h-2 w-2 rounded-full bg-black" />

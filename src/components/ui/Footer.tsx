@@ -65,14 +65,14 @@ export default function Footer() {
                 <Image src="/icons/whatsapp.svg" alt="" width={20} height={20} />
               </a>
 
-              <a
+              {/* <a
                 href="https://t.me/yourusername"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Telegram"
               >
                 <Image src="/icons/telegram.svg" alt="" width={20} height={20} />
-              </a>
+              </a> */}
 
               <a
                 href="https://www.instagram.com/asanka_91/"
