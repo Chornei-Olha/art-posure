@@ -71,7 +71,7 @@ export default function FollowFeed() {
 
             {/* SMALL 1 */}
             <div className="relative">
-              <Image src="/images/insta-2.png" alt="" fill className="object-cover" />
+              <Image src="/images/insta-2.webp" alt="" fill className="object-cover" />
             </div>
 
             {/* SMALL 2 */}

@@ -35,24 +35,22 @@ export default function Footer() {
 
           {/* COLUMN 3 */}
           <div className="space-y-3 font-roboto text-[16px] leading-[130%]">
-            <p className="mb-4 font-medium uppercase">Information</p>
-
-            <p>Simple Brown Box Ltd</p>
-            <p>Flat 44</p>
-
+            <p className="mb-4 font-medium uppercase">CONTACT & LOCATION</p>
+            <p>Bournemouth Coastline</p>
             <p className="pt-4">
               Phone:{' '}
-              <a href="tel:+447342366339" className="text-blue-600 hover:underline">
-                +447342366339
+              <a href="tel:+447493405945" className="text-blue-600 hover:underline">
+                +44 7493 405945
               </a>
             </p>
             <p>
-              <a
+              Open-Air Creative Art by the Sea Fresh air • Nature • Creativity
+              {/* <a
                 href="mailto:Company@SimpleBrownBox.co.uk"
                 className="text-blue-600 hover:underline"
               >
                 Company@SimpleBrownBox.co.uk
-              </a>
+              </a> */}
             </p>
 
             {/* SOCIALS */}
