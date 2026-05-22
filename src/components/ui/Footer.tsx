@@ -29,7 +29,6 @@ export default function Footer() {
             <Link href="/services" className="block mb-3">
               Services
             </Link>{' '}
-            <a href="/services">Services</a>
             <Link href="/faq" className="block mb-3">
               FAQ
             </Link>{' '}
