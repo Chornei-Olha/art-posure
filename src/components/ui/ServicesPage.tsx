@@ -22,7 +22,7 @@ export default function ServicesPage() {
 
             <div className="flex flex-wrap gap-4 mb-10">
               <div className="px-5 py-3 rounded-full border border-black/10 bg-white">
-                £30 per person
+                £35 per person
               </div>
 
               <div className="px-5 py-3 rounded-full border border-black/10 bg-white">

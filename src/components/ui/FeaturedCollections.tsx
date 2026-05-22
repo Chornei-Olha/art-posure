@@ -4,13 +4,13 @@ import Link from 'next/link';
 const items = [
   {
     title: 'Read more',
-    img: '/images/service-1.webp',
-    anchor: 'service-1',
+    img: '/images/service-2.webp',
+    anchor: 'service-2',
   },
   {
     title: 'Read more',
-    img: '/images/service-2.webp',
-    anchor: 'service-2',
+    img: '/images/service-1.webp',
+    anchor: 'service-1',
   },
   {
     title: 'Read more',
