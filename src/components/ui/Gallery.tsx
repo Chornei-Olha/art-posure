@@ -5,11 +5,20 @@ import { useState, useEffect } from 'react';
 
 const images = [
   '/images/gallery-1.webp',
-  '/images/gallery-2.webp',
-  '/images/gallery-3.webp',
-  '/images/gallery-4.webp',
   '/images/gallery-5.webp',
+  '/images/gallery-12.webp',
+  '/images/gallery-4.webp',
+  '/images/gallery-2.webp',
+  '/images/gallery-4.webp',
   '/images/gallery-6.webp',
+  '/images/gallery-7.webp',
+  '/images/gallery-8.webp',
+  '/images/gallery-9.webp',
+  '/images/gallery-10.webp',
+  '/images/gallery-11.webp',
+  '/images/gallery-13.webp',
+  '/images/gallery-14.webp',
+  '/images/gallery-15.webp',
 ];
 
 // useEffect(() => {
@@ -52,7 +61,7 @@ export default function Gallery() {
                 src={src}
                 alt={`Gallery image ${index + 1}`}
                 fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
+                className="object-contain bg-[#f8f5f1] transition-transform duration-500 group-hover:scale-105"
               />
             </button>
           ))}
@@ -81,7 +90,7 @@ export default function Gallery() {
           </button>
 
           {/* IMAGE */}
-          <div className="relative h-[70vh] w-[90vw] md:h-[80vh] md:w-[70vw]">
+          <div className="group relative aspect-[4/5] overflow-hidden bg-[#f8f5f1]">
             <Image
               src={images[activeIndex]}
               alt="Selected image"
