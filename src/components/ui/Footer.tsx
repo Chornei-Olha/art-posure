@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -19,18 +20,19 @@ export default function Footer() {
 
           {/* COLUMN 2 */}
           <div className="font-roboto text-[16px] leading-[130%]">
-            <a href="/" className="block mb-3">
+            <Link href="/" className="block mb-3">
               Home
-            </a>
-            <a href="/gallery" className="block mb-3">
+            </Link>
+            <Link href="/gallery" className="block mb-3">
               Gallery
-            </a>
-            <a href="/services" className="block mb-3">
+            </Link>
+            <Link href="/services" className="block mb-3">
               Services
-            </a>
-            <a href="/faq" className="block mb-3">
+            </Link>{' '}
+            <a href="/services">Services</a>
+            <Link href="/faq" className="block mb-3">
               FAQ
-            </a>
+            </Link>{' '}
           </div>
 
           {/* COLUMN 3 */}

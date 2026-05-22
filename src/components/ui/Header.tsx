@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -14,16 +15,16 @@ export default function Header() {
       {/* MAIN HEADER */}
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* LOGO */}
-        <a href="/" className="mr-auto">
+        <Link href="/" className="mr-auto">
           <Image src="/images/logo-new.svg" alt="logo" width={100} height={50} priority />
-        </a>
+        </Link>
 
         {/* DESKTOP NAV */}
         <nav className="hidden md:flex gap-8 font-roboto text-[18px] uppercase leading-none">
-          <a href="/">Home</a>
-          <a href="/gallery">Gallery</a>
-          <a href="/services">Services</a>
-          <a href="/faq">FAQ</a>
+          <Link href="/">Home</Link>
+          <Link href="/gallery">Gallery</Link>
+          <Link href="/services">Services</Link>
+          <Link href="/faq">FAQ</Link>{' '}
         </nav>
 
         {/* BURGER BUTTON */}
@@ -52,18 +53,18 @@ export default function Header() {
         ${open ? 'translate-x-0' : 'translate-x-full'}`}
       >
         <nav className="flex flex-col items-center justify-center h-full gap-10 font-roboto text-[24px] uppercase">
-          <a href="/" onClick={() => setOpen(false)}>
+          <Link href="/" onClick={() => setOpen(false)}>
             Home
-          </a>
-          <a href="/gallery" onClick={() => setOpen(false)}>
+          </Link>
+          <Link href="/gallery" onClick={() => setOpen(false)}>
             Gallery
-          </a>
-          <a href="/services" onClick={() => setOpen(false)}>
+          </Link>
+          <Link href="/services" onClick={() => setOpen(false)}>
             Services
-          </a>
-          <a href="/faq" onClick={() => setOpen(false)}>
+          </Link>
+          <Link href="/faq" onClick={() => setOpen(false)}>
             FAQ
-          </a>
+          </Link>
         </nav>
       </div>
 
