@@ -46,13 +46,11 @@ export default function Footer() {
               <a href="tel:+3807340442350" className="text-blue-600 hover:underline">
                 +38 073 40442350
               </a>
-            </p>
-            <p>
-              Open-Air Creative Art by the Sea Fresh air • Nature • Creativity
               <a href="mailto:super_asanka@ukr.net" className="text-blue-600 hover:underline">
                 super_asanka@ukr.net
               </a>
             </p>
+            <p>Open-Air Creative Art by the Sea Fresh air • Nature • Creativity</p>
 
             {/* SOCIALS */}
             <div className="flex items-center gap-4 pt-6">
